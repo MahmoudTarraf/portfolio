@@ -6,3 +6,5 @@
 *.webp binary
 *.woff binary
 
+sitemap.xml text xml
+*.xml text xml
