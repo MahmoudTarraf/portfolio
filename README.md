@@ -379,3 +379,60 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
+To update:
+1️⃣ Make changes locally
+
+Edit your files in D:\developerFolio-master (React components, SCSS, portfolio content, etc.)
+
+For example, update your projects, skills, or greeting section.
+
+2️⃣ Test locally
+
+Before deploying, make sure everything works:
+
+npm start
+
+
+Opens a local server at http://localhost:3000/
+
+Verify your changes in the browser.
+
+3️⃣ Build the project
+
+After confirming everything works:
+
+npm run build
+
+
+This creates an updated build folder with your optimized React app.
+
+4️⃣ Deploy to GitHub Pages
+
+Since you already have predeploy and deploy scripts, just run:
+
+npm run deploy
+
+
+predeploy runs automatically (npm run build)
+
+gh-pages pushes the new build folder to the gh-pages branch
+
+Your live portfolio will be updated at:
+
+https://MahmoudTarraf.github.io/portfolio
+
+
+If you have a custom domain, it will continue working; you don’t need to change anything.
+
+5️⃣ Optional: Commit your source changes
+
+Even though deployment pushes only the build folder, it’s a good practice to:
+
+git add .
+git commit -m "Updated portfolio"
+git push origin main
+
+
+Keeps your source code on GitHub updated.
+
+Makes it easier to track changes.
